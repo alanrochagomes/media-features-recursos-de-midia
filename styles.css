@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    background-color: lightblue;
+    padding: 60px;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.details {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    background-color: lightblue;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.image-cards {
+    background-color: lightblue;
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    flex-basis: 200px;
+}
+
+.image-cards img {
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
