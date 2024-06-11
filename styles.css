@@ -56,7 +56,13 @@ h3 {
   gap: 20px;
 }
 
-@media screen and (max-width: 690px) {
+  @media not all and (orientation: landscape) {
+    body {
+      color: red;
+    }
+  }
+
+/* @media screen and (max-width: 690px) {
   .details {
     flex-direction: column;
   }
@@ -76,4 +82,4 @@ h3 {
   header {
     color: cornflowerblue;
   }
-}
+} */
